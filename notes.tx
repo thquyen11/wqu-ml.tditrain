@@ -1,0 +1,9 @@
+LabelEncoder
+- Turn categorial variable to numeric
+- Imposed ordinality
+- Can be used in DecisionTree or RandomForest 
+
+OneHotEncoding
+- Turn each unique value of categorial variable to binary columns
+- Can be used in any estimator
+- The curse of dimensionality => use PCA to reduce dimension

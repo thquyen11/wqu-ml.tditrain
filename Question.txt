@@ -1,0 +1,12 @@
+Ex1:
+What to predict if STATE not in data to get 1 score?
+
+Ex2:
+Missing value: numeric fill by median. Non-numeric fill by mode(). Is this good?
+
+Ex3:
+Failed validating 'maxItems' in schema:
+    {'items': {'type': 'number'},
+     'maxItems': 1544,
+     'minItems': 1544,
+     'type': 'array'}

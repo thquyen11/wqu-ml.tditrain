@@ -1,0 +1,64 @@
+# KNeighborsClassifier 
+simple_features_model scores
+[[2834   28]
+ [1272   34]]
+              precision    recall  f1-score   support
+
+       False       0.69      0.99      0.81      2862
+        True       0.55      0.03      0.05      1306
+
+   micro avg       0.69      0.69      0.69      4168
+   macro avg       0.62      0.51      0.43      4168
+weighted avg       0.65      0.69      0.57      4168
+
+RandomSearchCV scores
+[[2839   23]
+ [1271   35]]
+              precision    recall  f1-score   support
+
+       False       0.69      0.99      0.81      2862
+        True       0.60      0.03      0.05      1306
+
+   micro avg       0.69      0.69      0.69      4168
+   macro avg       0.65      0.51      0.43      4168
+weighted avg       0.66      0.69      0.58      4168
+
+GridSearchCV scores
+{'pre__pca__n_components': 3, 'clf__n_neighbors': 185}
+[[2846   16]
+ [1279   27]]
+              precision    recall  f1-score   support
+
+       False       0.69      0.99      0.81      2862
+        True       0.63      0.02      0.04      1306
+
+   micro avg       0.69      0.69      0.69      4168
+   macro avg       0.66      0.51      0.43      4168
+weighted avg       0.67      0.69      0.57      4168
+
+
+# DecisionTreeClassifier
+simple_features_model scores
+[[1994  868]
+ [ 861  445]]
+              precision    recall  f1-score   support
+
+       False       0.70      0.70      0.70      2862
+        True       0.34      0.34      0.34      1306
+
+   micro avg       0.59      0.59      0.59      4168
+   macro avg       0.52      0.52      0.52      4168
+weighted avg       0.59      0.59      0.59      4168
+
+RandomSearchCV scores
+[[2862    0]
+ [1306    0]]
+              precision    recall  f1-score   support
+
+       False       0.69      1.00      0.81      2862
+        True       0.00      0.00      0.00      1306
+
+   micro avg       0.69      0.69      0.69      4168
+   macro avg       0.34      0.50      0.41      4168
+weighted avg       0.47      0.69      0.56      4168
+
